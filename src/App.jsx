@@ -23,7 +23,7 @@ const Home = () => {
     <div className="bg-light min-vh-100" style={{ fontSize: `${fontSize}px` }}>
       <Header changeFontSize={changeFontSize} />
       <div className="container-fluid">
-        <div className="row">
+        <div className="row flex justify-content-evenly">
           {/* Main Content */}
           <div className="col-lg-9 col-md-12 px-3">
             <div className="py-4">
